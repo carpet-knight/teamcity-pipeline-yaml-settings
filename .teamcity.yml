@@ -3,4 +3,8 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'wow'
+        script-content: echo 'wowx'
+    dependencies:
+      - Job2
+  Job2:
+    name: Job 2
