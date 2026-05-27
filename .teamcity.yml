@@ -3,8 +3,10 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'wowx'
+        script-content: echo 'wowxz'
     dependencies:
       - Job2
+    features:
+      - type: free-disk-space
   Job2:
     name: Job 2
