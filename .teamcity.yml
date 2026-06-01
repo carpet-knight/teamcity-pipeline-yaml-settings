@@ -3,4 +3,4 @@ jobs:
     name: Job 2
     steps:
       - type: script
-        script-content: echo 'qytt'
+        script-content: echo 'test'
