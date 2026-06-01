@@ -3,4 +3,6 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'q'
+        script-content: |-
+          echo 'q'
+          echo 'm'
