@@ -1,6 +1,0 @@
-jobs:
-  Job2:
-    name: Job 2
-    steps:
-      - type: script
-        script-content: echo 'nice'
