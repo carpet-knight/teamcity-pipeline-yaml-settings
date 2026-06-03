@@ -3,4 +3,4 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'xaq'
+        script-content: echo 'abc'
