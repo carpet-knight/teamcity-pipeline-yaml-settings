@@ -3,5 +3,4 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'abcx'
-      - type: maven
+        script-content: echo 'abcsxx'
