@@ -1,8 +1,8 @@
-parameters:
-  param: param
 jobs:
   Job1:
     name: Job 1
     steps:
       - type: script
         script-content: echo 'abcsxx'
+      - type: script
+        script-content: echo '12'
