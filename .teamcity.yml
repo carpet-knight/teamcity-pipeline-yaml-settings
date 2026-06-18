@@ -3,6 +3,4 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'abcsxxsss'
-      - type: script
-        script-content: echo 'wow'
+        script-content: echo 'abcsxxq'
