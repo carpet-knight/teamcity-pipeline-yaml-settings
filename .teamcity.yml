@@ -5,4 +5,4 @@ jobs:
       - type: script
         script-content: echo 'abcsxx'
       - type: script
-        script-content: echo '12'
+        script-content: echo 'wow'
