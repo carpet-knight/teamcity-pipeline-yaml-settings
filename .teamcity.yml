@@ -4,5 +4,12 @@ jobs:
     steps:
       - type: script
         script-content: echo 'abcsxx'
+  Job2:
+    name: Job 2
+    dependencies:
+      - Job1
+    steps:
+      - type: script
+        script-content: echo 'job 2'
 dependencies:
   - MyProject_TeamcitySandbox
