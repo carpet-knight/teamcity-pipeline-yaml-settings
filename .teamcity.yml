@@ -3,4 +3,6 @@ jobs:
     name: Job 1
     steps:
       - type: script
-        script-content: echo 'abcsxxxqqqq'
+        script-content: echo 'abcsxx'
+      - type: script
+        script-content: echo 'now let us save it to dev branch'
