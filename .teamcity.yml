@@ -4,3 +4,13 @@ jobs:
     steps:
       - type: script
         script-content: echo 'abcsxx'
+  Job2:
+    name: Job 2
+    dependencies:
+      - Job1
+    steps:
+      - type: script
+        script-content: echo 'second 'job'
+      - type: script
+        script-content: echo 'second step in second job'
+        format-stderr-as-error: true
