@@ -4,7 +4,10 @@ jobs:
     steps:
       - type: script
         script-content: echo 'abcsxx'
+  Job2:
+    name: Job 2
+    dependencies:
+      - Job1
+    steps:
       - type: script
-        script-content: echo 'now let us save it to dev branch'
-      - type: script
-        script-content: echo 'one more step for dev branch'
+        script-content: echo 'second 'job'
