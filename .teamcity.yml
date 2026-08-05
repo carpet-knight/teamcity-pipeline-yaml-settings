@@ -11,5 +11,3 @@ jobs:
     steps:
       - type: script
         script-content: echo 'job 2'
-dependencies:
-  - MyProject_TeamcitySandbox
